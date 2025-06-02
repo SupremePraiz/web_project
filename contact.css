@@ -1,0 +1,98 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+
+.parent_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 9, 81);
+    color: white;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.parent_div a{
+    color: white;
+    text-decoration: none;
+}
+
+.parent_div header{
+    padding-top: 17px;
+    padding-right: 10px;
+    
+}
+
+.parent_div a:hover{
+    color: rgb(127, 98, 173);
+    /* background-color: turquoise; */
+}
+
+
+.parent_div header button{
+    background-color: salmon;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+
+h1{
+    text-align: center;
+    color:rgb(36, 9, 81);
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+form{
+    background-color: rgb(90, 37, 238);
+    margin-top: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ form button{
+    background-color: rgb(90, 37, 238);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+ }
+
+ form button:hover{
+    background-color: rgba(206, 188, 247, 0.815);
+    color: black;
+ }
+
+.contact-info{
+    background-color: rgb(90, 37, 238);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+footer{
+    background-color: rgb(28, 7, 85);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,149 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.parent_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 9, 81);
+    color: white;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 12;
+    
+}
+
+.parent_div a{
+    color: white;
+    text-decoration: none;
+}
+
+.parent_div header{
+    padding-top: 17px;
+    padding-right: 10px;
+    
+}
+
+.parent_div a:hover{
+    color: rgb(127, 98, 173);
+    /* background-color: turquoise; */
+}
+
+
+.parent_div header button{
+    background-color: salmon;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.parent_position{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px; 
+    margin-top: 30px;
+}
+
+.parent_position img{
+    width: 40%;
+    height: auto;
+    border-radius: 25px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.family_img{
+    position: relative;
+    top: 200px;
+    bottom: 0;
+    z-index: 11;
+    
+}
+
+.hero-section{
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZpcnN0JTIwY29udGFjdHxlbnwwfHx8fDE2ODQ5NTY1MjM&ixlib=rb-4.0.3&q=80&w=1080'); */
+    background-color: rgb(172, 247, 182);
+    height: 500px;
+    text-align: center;  
+    
+}
+
+.hero-section{
+    padding-top: 150px;
+    color: white;
+}
+
+.hero-section a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hero-section a:hover{
+    color: rgb(127, 98, 173);
+}
+
+#about{
+    text-align: center;  
+    margin-top: 250px;
+}
+
+#about h2{
+    color: rgb(244, 97, 80);
+}
+
+/* #about p{
+   color: rgb(244, 97, 80);
+} */
+
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.services-container section{
+    /* background-color: rgb(172, 247, 182); */
+    border: 2px solid rgb(36, 9, 81);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.services-container section h2{
+    color: rgb(244, 97, 80);
+}
+
+.services-container section li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+#testimonials cite{
+    color: rgb(28, 7, 85);
+}
+
+footer{
+    background-color: rgb(28, 7, 85);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+

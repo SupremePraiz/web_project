@@ -1,0 +1,89 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parent_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 9, 81);
+    color: white;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.parent_div a{
+    color: white;
+    text-decoration: none;
+}
+
+.parent_div a:hover{
+    color: rgb(127, 98, 173);
+
+}
+
+
+.parent_div header{
+    padding-top: 17px;
+    padding-right: 10px;
+}
+
+.parent_div header button{
+    background-color: salmon;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+
+form{
+    background-color: rgb(36, 9, 81);
+    margin-top: 170px;
+   
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+
+}
+
+label{
+    margin-bottom: 5px;
+
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(28, 7, 85);
+}
+
+.btn{
+    background-color: rgb(28, 7, 85);
+    border:2px solid white ;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 200;
+    color: white;
+}
+.btn:hover{
+    color: rgb(127, 98, 173); 
+}
+
+footer{
+    background-color: rgb(28, 7, 85);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 70px;
+   
+}
