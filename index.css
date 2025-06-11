@@ -149,22 +149,27 @@ footer{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body{
         /* overflow: hidden; */
         overflow-x: hidden;
+    }
+
+    .parent_position{
+        margin-left: 0;
     }
 
     .parent_div{
         position: sticky;
         top: 0;
         z-index: 12;
+        
     }
     .services-container{
         display: flex;
         flex-direction: column;
         width: 700px;
-        margin-left: 50px;
+        margin-left: 80px;
         
     }
 }
