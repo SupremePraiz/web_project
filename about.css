@@ -2,6 +2,7 @@ body{
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+    overflow-x: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -102,3 +103,16 @@ footer{
     padding: 10px;
     margin-top: 50px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .skill_div{
+        /* display: flex; */
+        flex-direction: column;
+        width: 900px;
+        margin-left: 90px;
+        
+    }
+}
+
