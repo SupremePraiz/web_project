@@ -96,3 +96,13 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        font-size: small;
+    }
+}
+
+
