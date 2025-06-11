@@ -169,8 +169,16 @@ footer{
     .services-container{
         display: flex;
         flex-direction: column;
+        width: 520px;
+        margin-left: 0;
+        padding: 10px;
+        align-items: center;
+        box-sizing: border-box;
+
+        /* display: flex;
+        flex-direction: column;
         width: 700px;
-        margin-left: 80px;
+        margin-left: 80px; */
         
     }
 }
