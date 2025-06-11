@@ -115,7 +115,7 @@ footer{
     .skill_div {
         display: flex;
         flex-direction: column;
-        width: 520px;
+        width: 100%;
         margin-left: 0;
         padding: 10px;
         align-items: center;
