@@ -91,7 +91,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .parent_div{
         flex-direction: row;
