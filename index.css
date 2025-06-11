@@ -150,37 +150,35 @@ footer{
 
 
 @media screen and (max-width: 600px) {
-    body{
-        /* overflow: hidden; */
+    body {
         overflow-x: hidden !important;
         font-size: small;
     }
 
-    .parent_position{
+    .parent_position {
         margin-left: 0;
     }
 
-    .parent_div{
+    .parent_div {
         position: sticky;
         top: 0;
         z-index: 12;
-
     }
-    .services-container{
+
+    .services-container {
         display: flex;
         flex-direction: column;
-        width: 500px;
         margin-left: 0;
         padding: 10px;
         align-items: center;
         box-sizing: border-box;
         overflow-x: hidden;
+        gap: 1rem; 
+    }
 
-        /* display: flex;
-        flex-direction: column;
-        width: 700px;
-        margin-left: 80px; */
-        
+    .services-container > section {
+        flex-grow: 4;
+        min-width: 90%; 
     }
 }
 
