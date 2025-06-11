@@ -107,6 +107,9 @@ footer{
 
 
 @media screen and (max-width: 600px) {
+    body{
+        overflow: hidden;
+    }
     .skill_div{
         /* display: flex; */
         flex-direction: column;
