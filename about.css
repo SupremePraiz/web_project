@@ -110,6 +110,7 @@ footer{
     body {
         overflow-x: hidden;
         font-size: small;
+        overflow-x: hidden;
     }
 
     .skill_div {
